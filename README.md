@@ -19,4 +19,8 @@ cd GenerPDF && npm install
 ```
 nodemon app.js
 ```
+Et rendez vous sur [http://localhost:1337](http://localhost:1337)
 
+## Edition du projet
+Les vues sont compilées grâce à `views/layout.ejs`. Pour ce qui est du css, un support du scss a été ajouté et vous pouvez créer vos styles dans `assets/styles/`.
+Si vous souhaitez ajouter des styles il suffit de créer un fichier `assets/style/monstyle.scss` et d'ajouter une ligne dans `assets/styles/importer.scss` pour dire de prendre en compte vos styles.
