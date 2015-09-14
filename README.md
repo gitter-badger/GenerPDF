@@ -17,6 +17,6 @@ cd GenerPDF && npm install
 
 ### lancez le projet avec 
 ```
-ǹodemon
+nodemon app.js
 ```
 
