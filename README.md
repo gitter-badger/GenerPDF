@@ -22,5 +22,21 @@ nodemon app.js
 Et rendez vous sur [http://localhost:1337](http://localhost:1337)
 
 ## Edition du projet
-Les vues sont compilées grâce à `views/layout.ejs`. Pour ce qui est du css, un support du scss a été ajouté et vous pouvez créer vos styles dans `assets/styles/`.
-Si vous souhaitez ajouter des styles il suffit de créer un fichier `assets/style/monstyle.scss` et d'ajouter une ligne dans `assets/styles/importer.scss` pour dire de prendre en compte vos styles.
+
+### La structure du projet
+C'est la phase la plus mouvante.
+Dans les jours / semaines à venir c'est tout sa structure qui va bouger, notemment parce que c'est encore balbutiant, mais surtout parce que c'est ici que le coeur va se faire.
+
+### Workflow à venir
+1. Dans un premier temps il faut créer une connexion.
+	1. Faire une vue de connexion
+	2. Ajouter une base mysql et la relier au projet (avec l'ORM de Sails [Waterline](https://github.com/balderdashy/waterline)).
+2. Quand nous aurons un template dédié au front et back, on utilisera les websockets avec [socket.io](http://socket.io) pour faire une vue backend dynamique pour la génération d'un pdf.
+3. Une vue backend (uniquement accessible par connexion) permettra de générer un pdf avec un header, un body et un footer.
+4. Le projet à ce stade pourrait suffir, mais on rajoutera un formulaire sur la vue backend pour ajouter des informations depuis la base de donnée.
+
+
+### Le style du projet
+Les vues sont compilées grâce à `views/layout.ejs`.
+Le CSS s'ajoute soit directement dans la vue, soit dans un fichier situé dans `assets/styles/monstyle.css`.
+Pour ce qui est du style, un support du scss a été ajouté : vous pouvez créer vos styles dans `assets/styles/`. Si vous souhaitez ajouter des styles il suffit de créer un fichier comme `assets/style/monstyle.scss` et d'ajouter une ligne dans `assets/styles/importer.scss` pour dire de prendre en compte vos styles. Et voilà.
