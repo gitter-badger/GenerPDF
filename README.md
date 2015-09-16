@@ -33,6 +33,8 @@ Dans les jours / semaines à venir c'est tout sa structure qui va bouger, notemm
 	2. Ajouter une base mysql et la relier au projet (avec l'ORM de Sails [Waterline](https://github.com/balderdashy/waterline)).
 2. Quand nous aurons un template dédié au front et back, on utilisera les websockets avec [socket.io](http://socket.io) pour faire une vue backend dynamique pour la génération d'un pdf.
 3. Une vue backend (uniquement accessible par connexion) permettra de générer un pdf avec un header, un body et un footer.
+	1. Génération du pdf avec [pdf-kit](https://github.com/pdfkit/pdfkit) et [Momentjs](http://momentjs.com/) pour la gestion des dates.
+	2. Ensuite il faudra ajouter l'envoi par mail du dit pdf. Je pense qu'un petit [Nodemailer](https://github.com/andris9/Nodemailer) fera l'affaire.
 4. Le projet à ce stade pourrait suffir, mais on rajoutera un formulaire sur la vue backend pour ajouter des informations depuis la base de donnée.
 
 
