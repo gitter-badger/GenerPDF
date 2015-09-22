@@ -2,6 +2,14 @@
 
 Réalisé avec [Sails](http://sailsjs.org), c'est une application web qui permet de générer un pdf lorsque l'on y est connecté.
 
+Je pars du postulat que vous avez installé les outils que votre bécane aura besoin pour lancer ce projet.
+
+| Outil	        | Rôle          												 | Link or command								     |
+| ------------- |:--------------------------------------:| -----------------------------------:|
+| Node 					| Permet d'utiliser les dépendances      | `sudo apt-get install nodejs npm`   |
+| Grunt		      | Permet d'automatiser des tâches        | `npm install -g grunt-cli` 				 |
+| Nodemon	      | Permet de lancer le serveur de l'appli | `npm install -g nodemon` 				   |
+
 ## Premiers pas
 Pour commencer à utiliser le projet, utilisez le lien ssh [git@github.com:Ugarz/GenerPDF.git](http://git@github.com:Ugarz/GenerPDF.git).
 
