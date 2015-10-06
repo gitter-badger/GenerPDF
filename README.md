@@ -1,5 +1,7 @@
 # GenerPdf
 
+[![Join the chat at https://gitter.im/Ugarz/GenerPDF](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Ugarz/GenerPDF?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Réalisé avec [Sails](http://sailsjs.org), c'est une application web qui permet de générer un pdf lorsque l'on y est connecté.
 Je pars du postulat que vous avez installé les outils que votre bécane aura besoin pour lancer ce projet.
 
